@@ -64,7 +64,7 @@ const Footer = () => {
               </div>
               <div className="contact-item">
                 <i className="fas fa-envelope"></i>
-                <span>mainaftabsaeed@gmail.com</span>
+                <span>muhammadbilalsaeed172@gmail.com</span>
               </div>
               <div className="contact-item">
                 <i className="fas fa-map-marker-alt"></i>

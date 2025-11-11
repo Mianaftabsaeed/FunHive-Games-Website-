@@ -127,7 +127,7 @@ const Career = () => {
         <div className="career-cta">
           <h3>Ready to Start Your Journey?</h3>
           <p>Send us your resume and let's discuss how you can contribute to our team!</p>
-          <a href="mailto:mainaftabsaeed@gmail.com" className="btn btn-primary">Send Resume</a>
+          <a href="mailto:muhammadbilalsaeed172@gmail.com" className="btn btn-primary">Send Resume</a>
         </div>
       </div>
     </section>

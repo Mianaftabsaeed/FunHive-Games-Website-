@@ -34,8 +34,8 @@ const Contact = () => {
     {
       icon: <i className="fas fa-envelope"></i>,
       title: "Email",
-      value: "mainaftabsaeed@gmail.com",
-      link: "mailto:mainaftabsaeed@gmail.com"
+      value: "muhammadbilalsaeed172@gmail.com",
+      link: "mailto:muhammadbilalsaeed172@gmail.com"
     },
     {
       icon: <i className="fas fa-globe"></i>,

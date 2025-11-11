@@ -134,7 +134,7 @@ This project is licensed under the MIT License.
 ## Contact
 
 For questions or support, contact:
-- Email: mainaftabsaeed@gmail.com
+- Email: muhammadbilalsaeed172@gmail.com
 - Phone: +92-42-35133263
 - Address: 17-D, DD Block Bahria Town Lahore
 
