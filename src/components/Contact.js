@@ -41,13 +41,13 @@ const Contact = () => {
       icon: <i className="fas fa-globe"></i>,
       title: "Website",
       value: "www.funhivegames.com",
-      link: "#"
+      link: "https://funhivegames.com"
     },
     {
       icon: <i className="fas fa-map-marker-alt"></i>,
       title: "Address",
       value: "58 B Government Employees Society Bahawalpur",
-      link: "#"
+      link: "https://maps.google.com"
     }
   ];
 
@@ -87,19 +87,19 @@ const Contact = () => {
             <div className="social-links">
               <h4>Follow Us</h4>
               <div className="social-icons">
-                <a href="#" className="social-icon">
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Facebook">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="#" className="social-icon">
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Twitter">
                   <i className="fab fa-twitter"></i>
                 </a>
-                <a href="#" className="social-icon">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Instagram">
                   <i className="fab fa-instagram"></i>
                 </a>
-                <a href="#" className="social-icon">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="LinkedIn">
                   <i className="fab fa-linkedin-in"></i>
                 </a>
-                <a href="#" className="social-icon">
+                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="YouTube">
                   <i className="fab fa-youtube"></i>
                 </a>
               </div>

@@ -58,13 +58,13 @@ const Team = () => {
                 <p className="team-description">{member.description}</p>
               </div>
               <div className="team-social">
-                <a href="#" className="social-link">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn">
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="#" className="social-link">
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Twitter">
                   <i className="fab fa-twitter"></i>
                 </a>
-                <a href="#" className="social-link">
+                <a href="mailto:mainaftabsaeed@gmail.com" className="social-link" aria-label="Email">
                   <i className="fas fa-envelope"></i>
                 </a>
               </div>
