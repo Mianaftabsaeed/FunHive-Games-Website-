@@ -4,7 +4,7 @@ import './Team.css';
 const Team = () => {
   const teamMembers = [
     {
-      name: "Mr. Aftab Saeed",
+      name: "Muhammad Bilal Saeed",
       position: "CEO of FunHive Games",
       description: "Visionary leader with extensive experience in game development and business strategy.",
       image: "👨‍💼"
