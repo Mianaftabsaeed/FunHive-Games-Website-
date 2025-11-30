@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
@@ -78,7 +79,7 @@ const Footer = () => {
           <div className="footer-bottom-content">
             <p>&copy; 2024 FunHive Games. All rights reserved.</p>
             <div className="footer-bottom-links">
-              <a href="/privacy-policy">Privacy Policy</a>
+              <Link to="/privacy-policy">Privacy Policy</Link>
               <a href="/terms-of-service">Terms of Service</a>
               <a href="/cookie-policy">Cookie Policy</a>
             </div>

@@ -1,26 +1,23 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import Team from './components/Team';
-import Career from './components/Career';
-import Technology from './components/Technology';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Home from './components/Home';
+import PrivacyPolicy from './components/PrivacyPolicy';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Hero />
-      <About />
-      <Team />
-      <Career />
-      <Technology />
-      <Contact />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,6 +21,11 @@ const Header = () => {
   };
 
   const scrollToSection = (sectionId) => {
+    if (location.pathname !== '/') {
+      // If not on home page, navigate to home first
+      window.location.href = `/#${sectionId}`;
+      return;
+    }
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
@@ -26,22 +33,33 @@ const Header = () => {
     setIsMenuOpen(false);
   };
 
+  const handleNavClick = (e, sectionId) => {
+    e.preventDefault();
+    if (location.pathname !== '/') {
+      window.location.href = `/#${sectionId}`;
+    } else {
+      scrollToSection(sectionId);
+    }
+  };
+
   return (
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container">
         <nav className="navbar">
           <div className="nav-brand">
-            <h2>FunHive Games</h2>
+            <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+              <h2>FunHive Games</h2>
+            </Link>
           </div>
           
           <div className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
             <ul className="nav-list">
-              <li><a href="#home" onClick={() => scrollToSection('home')}>Home</a></li>
-              <li><a href="#about" onClick={() => scrollToSection('about')}>About Us</a></li>
-              <li><a href="#team" onClick={() => scrollToSection('team')}>Team</a></li>
-              <li><a href="#career" onClick={() => scrollToSection('career')}>Career</a></li>
-              <li><a href="#technology" onClick={() => scrollToSection('technology')}>Technology</a></li>
-              <li><a href="#contact" onClick={() => scrollToSection('contact')}>Contact Us</a></li>
+              <li><Link to="/" onClick={() => setIsMenuOpen(false)}>Home</Link></li>
+              <li><a href="#about" onClick={(e) => handleNavClick(e, 'about')}>About Us</a></li>
+              <li><a href="#team" onClick={(e) => handleNavClick(e, 'team')}>Team</a></li>
+              <li><a href="#career" onClick={(e) => handleNavClick(e, 'career')}>Career</a></li>
+              <li><a href="#technology" onClick={(e) => handleNavClick(e, 'technology')}>Technology</a></li>
+              <li><a href="#contact" onClick={(e) => handleNavClick(e, 'contact')}>Contact Us</a></li>
             </ul>
           </div>
 
