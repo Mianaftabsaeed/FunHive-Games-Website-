@@ -1,0 +1,17 @@
+# --- AdMob ---
+google.com, pub-5653953690393091, DIRECT, f08c47fec0942fa0
+
+# --- Unity Ads ---
+unity.com, edcafc25-bfa4-405e-be01-915dabac6f89, DIRECT, 1c576a72e04b6e66
+
+# --- ironSource ---
+ironsrc.com, 24681398d, DIRECT
+
+# --- InMobi ---
+inmobi.com, 375dba6be1d149be8874b8c84b748bd5, DIRECT
+
+# --- Liftoff / Vungle ---
+vungle.com, 692c0ecb469ce54b4d432414, DIRECT, c107d686becd2d77
+33across.com, 001Pg0000197KcKIAU, RESELLER, bbea06d9c4d2853c
+contextweb.com, 562852, RESELLER, 89ff185a4c4e857c
+
