@@ -8,7 +8,7 @@ unity.com, edcafc25-bfa4-405e-be01-915dabac6f89, DIRECT, 1c576a72e04b6e66
 ironsrc.com, 24681398d, DIRECT
 
 # --- InMobi ---
-inmobi.com, 375dba6be1d149be8874b8c84b748bd5, DIRECT
+inmobi.com, 21f07ec801294670abd1bd8cf0a35e96, DIRECT, 83e75a7ae333ca9d
 
 # --- Liftoff / Vungle ---
 vungle.com, 692c0ecb469ce54b4d432414, DIRECT, c107d686becd2d77
