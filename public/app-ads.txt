@@ -1055,3 +1055,4 @@ pubmatic.com, 164452, RESELLER, 5d62403b186f2ace
 carbonatix.com, 140984665, RESELLER
 uis.mobfox.com, 82593, RESELLER, 5529a3d1f59865be
 olaex.biz, 100131, RESELLER
+facebook.com, 1224024599782908, DIRECT, c3e20eee3f780d68
