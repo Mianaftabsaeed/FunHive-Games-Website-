@@ -17,7 +17,7 @@ const Team = () => {
     },
     {
       name: "Sarah Aymen",
-      position: "Founder",
+      position: "Founder of FUNHIVE GAMES",
       description: "Expert in app store optimization and digital marketing strategies for maximum reach.",
       image: "📱"
     },
