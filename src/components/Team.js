@@ -17,7 +17,7 @@ const Team = () => {
     },
     {
       name: "Sarah Aymen",
-      position: "Lead ASO (App Store Optimization)",
+      position: "Founder",
       description: "Expert in app store optimization and digital marketing strategies for maximum reach.",
       image: "📱"
     },
