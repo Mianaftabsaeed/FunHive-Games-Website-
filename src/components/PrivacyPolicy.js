@@ -130,7 +130,7 @@ const PrivacyPolicy = () => {
                 <p><strong>Google Places</strong></p>
                 <p>Google Places is a service that returns information about places using HTTP requests. It is operated by Google</p>
                 <p>Google Places service may collect information from You and from Your Device for security purposes.</p>
-                <p>The information gathered by Google Places is held in accordance with the Privacy Policy of Google: <a href="https://www.google.com/intl/en/policies/privacy/" rel="external nofollow noopener" target="_blank">https://www.google.com/intl/en/policies/privacy/</a></p>
+                <p>The information gathered by Google Places is held in accordance with the Privacy Policy of Google: <a href="https://www.google.com/intl/en/policies/privacy/" rel="nofollow noopener noreferrer" target="_blank">https://www.google.com/intl/en/policies/privacy/</a></p>
               </li>
             </ul>
 
