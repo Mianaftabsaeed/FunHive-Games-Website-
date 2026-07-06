@@ -5,7 +5,7 @@ const Team = () => {
   const teamMembers = [
     {
       name: "Muhammad Bilal Saeed",
-      position: "CEO of FunHive Games",
+      position: "FUNHIVE GAMES",
       description: "Visionary leader with extensive experience in game development and business strategy.",
       image: "👨‍💼"
     },
