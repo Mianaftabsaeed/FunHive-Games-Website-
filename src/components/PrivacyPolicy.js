@@ -12,6 +12,7 @@ const PrivacyPolicy = () => {
         <div className="container">
           <div className="privacy-policy-content">
             <h1>Privacy Policy</h1>
+            <h2>Sarah Aymen</h2>
             <p className="last-updated">Last updated: November 09, 2025</p>
             
             <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>

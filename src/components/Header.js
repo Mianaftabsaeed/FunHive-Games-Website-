@@ -48,7 +48,7 @@ const Header = () => {
         <nav className="navbar">
           <div className="nav-brand">
             <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-              <h2>FunHive Games</h2>
+              <h2>FUNHIVE GAMES</h2>
             </Link>
           </div>
           
