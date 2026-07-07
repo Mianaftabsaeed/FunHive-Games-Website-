@@ -23,7 +23,7 @@ const Team = () => {
     },
     {
       name: "Aftab Saeed",
-      position: "Representative",
+      position: "Representative of FUNHIVE GAMES",
       description: "Representing FUNHIVE GAMES with dedication and professionalism in partnerships and outreach.",
       image: "🤝"
     },
