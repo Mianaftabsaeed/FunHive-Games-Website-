@@ -61,15 +61,15 @@ const Footer = () => {
             <div className="contact-info">
               <div className="contact-item">
                 <i className="fas fa-phone"></i>
-                <span>+92-3298263080</span>
+                <span>923024838655</span>
               </div>
               <div className="contact-item">
                 <i className="fas fa-envelope"></i>
-                <span>muhammadbilalsaeed172@gmail.com</span>
+                <span>sarahaymen172@gmail.com</span>
               </div>
               <div className="contact-item">
                 <i className="fas fa-map-marker-alt"></i>
-                <span>58 B Government Employees Society Bahawalpur</span>
+                <span>58B Govt Employees Co-Operate Housing Society, Bahawalpur</span>
               </div>
             </div>
           </div>

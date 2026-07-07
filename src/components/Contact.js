@@ -28,14 +28,14 @@ const Contact = () => {
     {
       icon: <i className="fas fa-phone"></i>,
       title: "Phone",
-      value: "+92-3298263080",
-      link: "tel:+923298263080"
+      value: "923024838655",
+      link: "tel:+923024838655"
     },
     {
       icon: <i className="fas fa-envelope"></i>,
       title: "Email",
-      value: "muhammadbilalsaeed172@gmail.com",
-      link: "mailto:muhammadbilalsaeed172@gmail.com"
+      value: "sarahaymen172@gmail.com",
+      link: "mailto:sarahaymen172@gmail.com"
     },
     {
       icon: <i className="fas fa-globe"></i>,
@@ -46,7 +46,7 @@ const Contact = () => {
     {
       icon: <i className="fas fa-map-marker-alt"></i>,
       title: "Address",
-      value: "58 B Government Employees Society Bahawalpur",
+      value: "58B Govt Employees Co-Operate Housing Society, Bahawalpur",
       link: "https://maps.google.com"
     }
   ];
