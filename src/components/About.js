@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section id="about" className="section about">
       <div className="container">
-        <h2 className="section-title">About FunHive Games</h2>
+        <h2 className="section-title">About FUNHIVE GAMES</h2>
         <p className="section-subtitle">
           We are a passionate team of game developers, designers, and innovators dedicated to creating 
           exceptional gaming experiences that captivate and entertain players worldwide.
