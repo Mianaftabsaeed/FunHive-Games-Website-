@@ -4,6 +4,12 @@ import './Team.css';
 const Team = () => {
   const teamMembers = [
     {
+      name: "Sarah Aymen",
+      position: "Founder of FUNHIVE GAMES",
+      description: "Expert in app store optimization and digital marketing strategies for maximum reach.",
+      image: "📱"
+    },
+    {
       name: "Muhammad Bilal Saeed",
       position: "CEO of FUNHIVE GAMES",
       description: "Visionary leader with extensive experience in game development and business strategy.",
@@ -16,10 +22,10 @@ const Team = () => {
       image: "👨‍💻"
     },
     {
-      name: "Sarah Aymen",
-      position: "Founder of FUNHIVE GAMES",
-      description: "Expert in app store optimization and digital marketing strategies for maximum reach.",
-      image: "📱"
+      name: "Aftab Saeed",
+      position: "Representative",
+      description: "Representing FUNHIVE GAMES with dedication and professionalism in partnerships and outreach.",
+      image: "🤝"
     },
     {
       name: "Umamah noor",

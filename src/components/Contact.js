@@ -40,8 +40,8 @@ const Contact = () => {
     {
       icon: <i className="fas fa-globe"></i>,
       title: "Website",
-      value: "www.funhivegames.com",
-      link: "https://funhivegames.com"
+      value: "fun-hive-games-website.vercel.app",
+      link: "https://fun-hive-games-website.vercel.app"
     },
     {
       icon: <i className="fas fa-map-marker-alt"></i>,
