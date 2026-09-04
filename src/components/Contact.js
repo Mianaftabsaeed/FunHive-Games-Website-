@@ -28,20 +28,20 @@ const Contact = () => {
     {
       icon: <i className="fas fa-phone"></i>,
       title: "Phone",
-      value: "923024838655",
+      value: "923049355319",
       link: "tel:+923024838655"
     },
     {
       icon: <i className="fas fa-envelope"></i>,
       title: "Email",
-      value: "sarahaymen172@gmail.com",
-      link: "mailto:sarahaymen172@gmail.com"
+      value: "umamahnoor2020@gmail.com",
+      link: "mailto:umamahnoor2020@gmail.com"
     },
     {
       icon: <i className="fas fa-globe"></i>,
       title: "Website",
-      value: "fun-hive-games-website.vercel.app",
-      link: "https://fun-hive-games-website.vercel.app"
+      value: "game-era-studio.vercel.app",
+      link: "https://game-era-studio.vercel.app/"
     },
     {
       icon: <i className="fas fa-map-marker-alt"></i>,
