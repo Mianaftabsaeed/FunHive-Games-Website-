@@ -12,7 +12,7 @@ const PrivacyPolicy = () => {
         <div className="container">
           <div className="privacy-policy-content">
             <h1>Privacy Policy</h1>
-            <h2>Sarah Aymen</h2>
+            <h2>Umamah Noor</h2>
             <p className="last-updated">Last updated: November 09, 2025</p>
             
             <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
@@ -28,8 +28,8 @@ const PrivacyPolicy = () => {
             <ul>
               <li><p><strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.</p></li>
               <li><p><strong>Affiliate</strong> means an entity that controls, is controlled by, or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</p></li>
-              <li><p><strong>Application</strong> refers to FunHive Games, the software program provided by the Company.</p></li>
-              <li><p><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to FunHive Games.</p></li>
+              <li><p><strong>Application</strong> refers to Game Era Studio, the software program provided by the Company.</p></li>
+              <li><p><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Game Era Studio.</p></li>
               <li><p><strong>Country</strong> refers to: Pakistan</p></li>
               <li><p><strong>Device</strong> means any device that can access the Service such as a computer, a cell phone or a digital tablet.</p></li>
               <li><p><strong>Personal Data</strong> is any information that relates to an identified or identifiable individual.</p></li>

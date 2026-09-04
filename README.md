@@ -1,6 +1,6 @@
-# FunHive Games Website
+# Game Era Studio Website
 
-A modern, responsive website for FunHive Games - a game development studio specializing in mobile games, web development, and cutting-edge technology solutions.
+A modern, responsive website for Game Era Studio - a game development studio specializing in mobile games, web development, and cutting-edge technology solutions.
 
 ## Features
 
@@ -32,7 +32,7 @@ A modern, responsive website for FunHive Games - a game development studio speci
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd funhive-games-website
+   cd game-era-studio-website
    ```
 
 2. Install dependencies:

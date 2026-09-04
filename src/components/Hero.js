@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="container">
         <div className="hero-content">
           <h1 className="hero-title">
-            Welcome to <span className="highlight">FUNHIVE GAMES</span>
+            Welcome to <span className="highlight">GAME ERA STUDIO</span>
           </h1>
           <p className="hero-subtitle">
             Creating innovative and engaging games that bring joy to players worldwide. 
