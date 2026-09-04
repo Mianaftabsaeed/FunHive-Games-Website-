@@ -5,26 +5,26 @@ const Team = () => {
   const teamMembers = [
     {
       name: "Sarah Aymen",
-      position: "Founder of FUNHIVE GAMES",
+      position: "Founder of GAME ERA STUDIO",
       description: "Expert in app store optimization and digital marketing strategies for maximum reach.",
       image: "📱"
     },
     {
       name: "Muhammad Bilal Saeed",
-      position: "CEO of FUNHIVE GAMES",
+      position: "CEO of GAME ERA STUDIO",
       description: "Visionary leader with extensive experience in game development and business strategy.",
       image: "👨‍💼"
     },
     {
       name: "Mr. Umair Akram", 
-      position: "CEO of GameEra Studio",
+      position: "CEO of GAME ERA STUDIO",
       description: "Strategic thinker and technology enthusiast driving innovation in our gaming solutions.",
       image: "👨‍💻"
     },
     {
       name: "Muhammad Aftab Saeed",
-      position: "Representative of FUNHIVE GAMES",
-      description: "Representing FUNHIVE GAMES with dedication and professionalism in partnerships and outreach.",
+      position: "Representative of GAME ERA STUDIO",
+      description: "Representing GAME ERA STUDIO with dedication and professionalism in partnerships and outreach.",
       image: "🤝"
     },
     {
@@ -46,7 +46,7 @@ const Team = () => {
       <div className="container">
         <h2 className="section-title">Our Amazing Team</h2>
         <p className="section-subtitle">
-          Meet the talented individuals who make FunHive Games a success. 
+          Meet the talented individuals who make Game Era Studio a success. 
           Our team combines creativity, technical expertise, and passion for gaming.
         </p>
 
@@ -82,7 +82,7 @@ const Team = () => {
           <blockquote>
             "Talent wins games, but teamwork and intelligence win championships."
           </blockquote>
-          <cite>- FunHive Games Team</cite>
+          <cite>- Game Era Studio Team</cite>
         </div>
       </div>
     </section>

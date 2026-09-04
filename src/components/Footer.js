@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>FunHive Games</h3>
+            <h3>Game Era Studio</h3>
             <p>
               Creating innovative and engaging games that bring joy to players worldwide. 
               We specialize in mobile games, web development, and cutting-edge technology solutions.
@@ -77,7 +77,7 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <div className="footer-bottom-content">
-            <p>&copy; 2024 FunHive Games. All rights reserved.</p>
+            <p>&copy; 2024 Game Era Studio. All rights reserved.</p>
             <div className="footer-bottom-links">
               <Link to="/privacy-policy">Privacy Policy</Link>
               <a href="/terms-of-service">Terms of Service</a>
