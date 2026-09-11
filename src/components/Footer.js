@@ -65,11 +65,11 @@ const Footer = () => {
               </div>
               <div className="contact-item">
                 <i className="fas fa-envelope"></i>
-                <span>sarahaymen172@gmail.com</span>
+                <span>umamahnoor94@gmail.com</span>
               </div>
               <div className="contact-item">
                 <i className="fas fa-map-marker-alt"></i>
-                <span>58B Govt Employees Co-Operate Housing Society, Bahawalpur</span>
+                <span>CHISHTIA PARK COLONY CHISHTIAN</span>
               </div>
             </div>
           </div>

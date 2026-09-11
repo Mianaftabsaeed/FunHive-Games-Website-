@@ -28,7 +28,7 @@ const Team = () => {
       image: "🤝"
     },
     {
-      name: "Sarah Aymen",
+      name: "Zikria",
       position: "Lead Unity Developer", 
       description: "Master of Unity game engine with years of experience in creating immersive gaming experiences.",
       image: "🎮"

@@ -46,7 +46,7 @@ const Contact = () => {
     {
       icon: <i className="fas fa-map-marker-alt"></i>,
       title: "Address",
-      value: "58B Govt Employees Co-Operate Housing Society, Bahawalpur",
+      value: "CHISHTIA PARK COLONY CHISHTIAN",
       link: "https://maps.google.com"
     }
   ];
