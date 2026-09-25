@@ -29,13 +29,13 @@ const Contact = () => {
       icon: <i className="fas fa-phone"></i>,
       title: "Phone",
       value: "923049355319",
-      link: "tel:+923024838655"
+      link: "tel:+923049355319"
     },
     {
       icon: <i className="fas fa-envelope"></i>,
       title: "Email",
-      value: "umamahnoor2020@gmail.com",
-      link: "mailto:umamahnoor2020@gmail.com"
+      value: "umamahnoor94@gmail.com",
+      link: "mailto:umamahnoor94@gmail.com"
     },
     {
       icon: <i className="fas fa-globe"></i>,

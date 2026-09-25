@@ -17,7 +17,7 @@ const Team = () => {
     },
     {
       name: "Mr. Umair Akram", 
-      position: "CEO of GAME ERA STUDIO",
+      position: "CTO of GAME ERA STUDIO",
       description: "Strategic thinker and technology enthusiast driving innovation in our gaming solutions.",
       image: "👨‍💻"
     },

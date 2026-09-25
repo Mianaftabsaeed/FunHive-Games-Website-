@@ -61,7 +61,7 @@ const Footer = () => {
             <div className="contact-info">
               <div className="contact-item">
                 <i className="fas fa-phone"></i>
-                <span>923024838655</span>
+                <span>923049355319</span>
               </div>
               <div className="contact-item">
                 <i className="fas fa-envelope"></i>
