@@ -55,6 +55,7 @@ const Header = () => {
           <div className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
             <ul className="nav-list">
               <li><Link to="/" onClick={() => setIsMenuOpen(false)}>Home</Link></li>
+              <li><a href="#games" onClick={(e) => handleNavClick(e, 'games')}>Our Games</a></li>
               <li><a href="#about" onClick={(e) => handleNavClick(e, 'about')}>About Us</a></li>
               <li><a href="#team" onClick={(e) => handleNavClick(e, 'team')}>Team</a></li>
               <li><a href="#career" onClick={(e) => handleNavClick(e, 'career')}>Career</a></li>
