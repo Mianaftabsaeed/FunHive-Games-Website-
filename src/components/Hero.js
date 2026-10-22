@@ -5,6 +5,13 @@ const Hero = () => {
   return (
     <section id="home" className="hero">
       <div className="hero-background">
+        <div className="hero-collage" aria-hidden="true">
+          <img className="hero-tile hero-tile-1" src="https://play-lh.googleusercontent.com/aVVM3xuReitrf4zxjbz4T3cKmCGwrDyxfPOrtZ_qadUH7awYL7KddzeMfaRB_h8BZxwBhXfUpb4PHHlywWPqxv8=w720-h1280" alt="" />
+          <img className="hero-tile hero-tile-2" src="https://play-lh.googleusercontent.com/XvX2LqX20Jkk5tJ8tCSNCIOCd5csMReLsB3r0JzOaSaZ2akTsV7Swb9EQ8lX1AdR6cnsZizaHlXhKVIDSqEMf00=w720-h1280" alt="" />
+          <img className="hero-tile hero-tile-3" src="https://play-lh.googleusercontent.com/kdwGXYl8FJcsyk7fp7EcKMv4UtHgRTt--2HOJq9UemBS9iQb9Ch7iE_rEVUCRLNwWtU53flh39vNIAg7fII1JA=w720-h1280" alt="" />
+          <img className="hero-tile hero-tile-4" src="https://play-lh.googleusercontent.com/8StiNydJoc_yWDv4PxclgvIeYzFZZvbqbVHbY0yA1r-wE0JrCBF7yF9GGKwbhPUxYcei95zGCDgYOUn7prhlYvE=w720-h1280" alt="" />
+          <img className="hero-tile hero-tile-5" src="https://play-lh.googleusercontent.com/-8c1Q0AIfXGjYKVlE4dPNVZsGSalkyjC0I-R_2Eh5AUj6pNlo6ArgOq4ND8CtUU3JCYPGYYxxRaoR5sg3PZS=w720-h1280" alt="" />
+        </div>
         <div className="hero-overlay"></div>
       </div>
       <div className="container">

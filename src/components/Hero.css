@@ -18,13 +18,45 @@
   background-size: cover;
 }
 
+.hero-collage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 4px;
+}
+
+.hero-tile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: brightness(0.92) saturate(1.05);
+}
+
+.hero-tile-1 {
+  grid-column: span 2;
+}
+
+.hero-tile-4 {
+  grid-column: span 2;
+}
+
+.hero-tile-5 {
+  grid-column: span 2;
+}
+
 .hero-overlay {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.82) 0%, rgba(118, 75, 162, 0.88) 100%);
 }
 
 .hero-content {
@@ -221,3 +253,15 @@
 
 
 
+
+@media (max-width: 768px) {
+  .hero-collage {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .hero-tile-4,
+  .hero-tile-5 {
+    grid-column: span 1;
+  }
+}
